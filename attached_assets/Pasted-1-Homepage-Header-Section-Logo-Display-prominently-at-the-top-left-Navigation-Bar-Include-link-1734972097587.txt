@@ -1,0 +1,104 @@
+1. Homepage
+Header Section:
+
+Logo: Display prominently at the top left.
+Navigation Bar: Include links to sections: Home, About Us, Services, Achievements, Certifications, Projects, Key Clients, Contact Us.
+Tagline: “Really Everyone Needs Us” prominently displayed under the header.
+Hero Banner:
+
+Background image of industrial setups or NDT services in action.
+Title: “Welcome to Renu Engineering”
+Subtitle: “Pioneering Non-Destructive Testing and Inspection Since 2007.”
+Call-to-Action (CTA): “Explore Our Services” button.
+Core Value Highlights (Scroll Section):
+
+Flexibility in solutions.
+Industry-leading certifications.
+Client commitment and innovative practices.
+Highlight: “First NDE Organization with DNV Approval for PAUT for Aker Riser Project.”
+2. About Us
+Overview:
+
+Description of Renu Engineering's establishment in 2007.
+Emphasis on its services across industries: Engineering Fabrication, Marine, Oil & Gas.
+Our Mission:
+
+Statement focused on enhancing process performance and asset integrity.
+Team Expertise:
+
+Highlight PCN-trained specialists and their ability to tackle tough demands.
+3. Services
+Main Categories:
+
+Non-Destructive Testing (NDT):
+Subsections for each testing method with images:
+Penetrant Testing
+Magnetic Particle Inspection
+Ultrasonic Testing
+Radiographic Testing
+Eddy Current Testing
+Time of Flight Diffraction (TOFD)
+Phased Array Ultrasonic Testing (PAUT)
+Brief description of each method, its advantages, and applications.
+Advanced NDT Services:
+Phased Array Ultrasonic Testing
+Long Range Ultrasonic Testing
+Ultrasonic C-Scan
+Internal Rotary Inspection System (IRIS)
+Marine Services:
+Ship Visual Inspection, Tank Assessments, Voyage Surveys, Bottom Pitting Survey.
+Technical Services:
+Heat Treatment, Structural/Hull Inspections, Ultrasonic Thickness Measurement.
+Visual Aids:
+
+Diagrams and video snippets for each service.
+4. Achievements
+Timeline or infographic of milestones:
+
+2007: Founded.
+2021: Gained DNV Approval for PAUT.
+Major projects like the Aker Riser Project.
+Client Testimonials:
+
+Include quotes from satisfied clients.
+5. Certifications
+BizSAFE STAR
+
+ISO 9001:2015
+
+ISO 45001:2018
+
+Singapore Accreditation Council (SAC-SINGLAS)
+
+Training Approvals from DNV-GL.
+
+Display these as clickable icons with short descriptions.
+
+6. Projects
+Showcase key projects with descriptions and photos:
+Greater Enfield Development
+Coral FLNG South
+MRT Construction
+Liza Destiny FPSO
+7. Key Clients
+List major clients with logos where possible.
+Add testimonials or quotes from high-profile clients.
+8. Contact Us
+Contact Form:
+
+Name, Email, Subject, Message fields.
+Submit button.
+Direct Contact Details:
+
+Directors:
+Mr. Sinthamony Sreeram, Director | HP: 90575830 | Email: ndt@renundt.com
+Mr. G. Balaram, Director | HP: 83281745 | Email: ndt@renundt.com
+General Queries: admin@renundt.com.
+Location Map: Embedded Google Map for the company’s location.
+
+9. Footer
+Quick links to main sections.
+Social media links (if applicable).
+Copyright: “© 2024 Renu Engineering Pte Ltd. All Rights Reserved.”
+Notes:
+This structure emphasizes professionalism while ensuring navigability. Visual content, such as service images and project showcases, will enhance user engagement and help the company stand out.
