@@ -120,21 +120,34 @@ footer {
         width: calc(100% - 45px);
     }
 
+    #core-values .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
     #core-values .col-md-3 {
-        width: 25%;
+        width: 100%;
         padding: 5px;
     }
 
     #core-values .value-card {
         padding: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     #core-values .value-card h4 {
         font-size: 14px;
+        margin: 5px 0;
     }
 
     #core-values .value-card p {
         font-size: 12px;
+        margin: 0;
     }
 
     #core-values .value-card i {
