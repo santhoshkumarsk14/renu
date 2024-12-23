@@ -61,6 +61,14 @@ body {
     background: var(--primary-blue);
 }
 
+.achievement-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    margin: 1rem 0;
+}
+
 /* Certifications */
 .certification-item {
     text-align: center;
@@ -94,5 +102,21 @@ footer {
     
     .navbar-brand img {
         height: 40px;
+    }
+
+    .timeline .row {
+        margin-left: 45px;
+    }
+
+    .timeline .offset-md-6 {
+        margin-left: 0;
+    }
+
+    .achievement-card {
+        width: 100%;
+    }
+
+    .timeline .col-md-6 {
+        width: calc(100% - 45px);
     }
 }
