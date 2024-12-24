@@ -3,8 +3,4 @@
     <text x="10" y="35" font-family="Arial" font-size="30" fill="#FF0000" font-weight="bold">
         RENU
     </text>
-    <path d="M10 40 C 30 35, 50 45, 70 40" stroke="#0056b3" stroke-width="3" fill="none"/>
-    <text x="90" y="35" font-family="Arial" font-size="30" fill="#343a40">
-        Engineering
-    </text>
 </svg>
