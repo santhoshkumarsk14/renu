@@ -48,7 +48,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Gallery Interaction
-    // Project details data
+    const galleryModal = document.getElementById('galleryModal');
+    const galleryModalContent = document.getElementById('galleryModalContent');
+    const modalClose = document.querySelector('.gallery-modal-close');
+
     const projectDetails = {
         'ultrasonic-testing': {
             title: "Ultrasonic Testing (UT)",
