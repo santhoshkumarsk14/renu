@@ -135,26 +135,29 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     // Gallery item click handler
-    document.querySelectorAll('.gallery-item').forEach(item => {
-        item.addEventListener('click', function() {
-            const projectId = this.dataset.project;
-            const project = projectDetails[projectId];
-
-            if (project) {
-                const modalContent = `
-                    <h3>${project.title}</h3>
-                    <p class="mt-3">${project.description}</p>
-                    <h4 class="mt-4">Specifications:</h4>
-                    <ul class="list-unstyled">
-                        ${project.specifications.map(spec => `<li class="mb-2"><i class="fas fa-check-circle me-2"></i>${spec}</li>`).join('')}
-                    </ul>
-                `;
-
-                document.getElementById('galleryModalContent').innerHTML = modalContent;
-                document.getElementById('galleryModal').classList.add('active');
-            }
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    if (galleryItems) {
+        galleryItems.forEach(item => {
+            item.addEventListener('click', function() {
+                const projectId = this.dataset.project;
+                const project = projectDetails[projectId];
+                
+                if (project) {
+                    const modalContent = `
+                        <h3>${project.title}</h3>
+                        <p class="mt-3">${project.description}</p>
+                        <h4 class="mt-4">Specifications:</h4>
+                        <ul class="list-unstyled">
+                            ${project.specifications.map(spec => `<li class="mb-2"><i class="fas fa-check-circle me-2"></i>${spec}</li>`).join('')}
+                        </ul>
+                    `;
+                    
+                    galleryModalContent.innerHTML = modalContent;
+                    galleryModal.classList.add('active');
+                }
+            });
         });
-    });
+    }
 
     // Close modal handler
     document.querySelector('.gallery-modal-close').addEventListener('click', function() {
