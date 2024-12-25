@@ -112,15 +112,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 "Range: Up to 150m",
                 "Application: Pipeline screening"
             ]
-        }
-            title: "Radiographic Inspection",
-            description: "Comprehensive radiographic testing services for weld quality assessment and internal defect detection. Using advanced digital radiography systems to provide detailed imaging with reduced radiation exposure.",
-            specifications: [
-                "Equipment: Digital Radiography System",
-                "Testing Method: DR/CR",
-                "Industry: Marine",
-                "Location: Coral FLNG South"
-            ]
         },
         project3: {
             title: "Magnetic Particle Testing",
@@ -141,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
             item.addEventListener('click', function() {
                 const projectId = this.dataset.project;
                 const project = projectDetails[projectId];
-                
+
                 if (project) {
                     const modalContent = `
                         <h3>${project.title}</h3>
@@ -151,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             ${project.specifications.map(spec => `<li class="mb-2"><i class="fas fa-check-circle me-2"></i>${spec}</li>`).join('')}
                         </ul>
                     `;
-                    
+
                     galleryModalContent.innerHTML = modalContent;
                     galleryModal.classList.add('active');
                 }
@@ -160,14 +151,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Close modal handler
-    document.querySelector('.gallery-modal-close').addEventListener('click', function() {
-        document.getElementById('galleryModal').classList.remove('active');
-    });
+    if (modalClose) {
+        modalClose.addEventListener('click', function() {
+            galleryModal.classList.remove('active');
+        });
+    }
 
     // Close modal when clicking outside
-    document.getElementById('galleryModal').addEventListener('click', function(e) {
-        if (e.target === this) {
-            this.classList.remove('active');
-        }
-    });
+    if (galleryModal) {
+        galleryModal.addEventListener('click', function(e) {
+            if (e.target === this) {
+                this.classList.remove('active');
+            }
+        });
+    }
 });
