@@ -50,17 +50,66 @@ document.addEventListener('DOMContentLoaded', function() {
     // Gallery Interaction
     // Project details data
     const projectDetails = {
-        project1: {
-            title: "Ultrasonic Testing",
-            description: "Advanced NDT inspection services utilizing state-of-the-art ultrasonic testing equipment for precise defect detection and material thickness measurement. Our certified technicians ensure the highest level of accuracy in critical component assessment.",
+        'ultrasonic-testing': {
+            title: "Ultrasonic Testing (UT)",
+            description: "Precision testing for detecting internal flaws and measuring material thickness, ensuring structural integrity. Our certified technicians use advanced equipment for accurate defect detection.",
             specifications: [
                 "Equipment: Olympus OmniScan MX2",
-                "Testing Method: Phased Array UT",
-                "Industry: Oil & Gas",
-                "Location: Greater Enfield Development"
+                "Testing Method: Conventional UT",
+                "Detection: Internal flaws, thickness measurement",
+                "Application: Welds, forgings, castings"
             ]
         },
-        project2: {
+        'radiographic-testing': {
+            title: "Radiographic Testing (RT)",
+            description: "Advanced imaging to identify hidden defects in welds, castings, and pipelines with permanent records. Using state-of-the-art digital radiography systems.",
+            specifications: [
+                "Equipment: Digital Radiography System",
+                "Testing Method: DR/CR",
+                "Detection: Internal defects, weld quality",
+                "Application: Pressure vessels, pipelines"
+            ]
+        },
+        'magnetic-particle-testing': {
+            title: "Magnetic Particle Testing (MT)",
+            description: "Quick and reliable detection of surface and near-surface defects in ferromagnetic materials. Ideal for finding cracks and discontinuities.",
+            specifications: [
+                "Equipment: Magnaflux Equipment",
+                "Testing Method: MT - Fluorescent/Visible",
+                "Detection: Surface defects",
+                "Application: Steel components"
+            ]
+        },
+        'phased-array-testing': {
+            title: "Phased Array Ultrasonic Testing (PAUT)",
+            description: "Dynamic beam steering technology for enhanced weld inspections and plant monitoring. Provides detailed imaging of internal structures.",
+            specifications: [
+                "Equipment: Advanced PAUT System",
+                "Testing Method: Phased Array",
+                "Detection: Complex geometries",
+                "Application: Critical welds, composites"
+            ]
+        },
+        'liquid-penetrant-testing': {
+            title: "Liquid Penetrant Testing (PT)",
+            description: "Effective surface flaw detection using capillary action for smooth, non-porous materials. Reveals surface-breaking defects.",
+            specifications: [
+                "Equipment: PT Kit",
+                "Testing Method: Color contrast/Fluorescent",
+                "Detection: Surface breaks",
+                "Application: Non-magnetic materials"
+            ]
+        },
+        'long-range-ultrasonic-testing': {
+            title: "Long Range Ultrasonic Testing (LRUT)",
+            description: "Efficient inspection of pipelines and inaccessible areas, covering up to 150 meters in a single scan. Ideal for screening long pipe sections.",
+            specifications: [
+                "Equipment: Guided Wave System",
+                "Testing Method: Guided Waves",
+                "Range: Up to 150m",
+                "Application: Pipeline screening"
+            ]
+        }
             title: "Radiographic Inspection",
             description: "Comprehensive radiographic testing services for weld quality assessment and internal defect detection. Using advanced digital radiography systems to provide detailed imaging with reduced radiation exposure.",
             specifications: [
