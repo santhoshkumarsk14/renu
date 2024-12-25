@@ -235,3 +235,33 @@ body {
         padding: 1rem;
     }
 }
+
+/* Clients Section */
+.client-logo-scroll {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    padding: 1rem 0;
+}
+
+.client-logo-scroll .logos {
+    display: inline-block;
+    animation: scroll 20s linear infinite;
+}
+
+.client-logo-scroll .logos img {
+    height: 60px;
+    margin: 0 40px;
+    vertical-align: middle;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.client-logo-scroll .logos img:hover {
+    filter: grayscale(0%);
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
