@@ -1,0 +1,140 @@
+:root {
+    --primary-blue: #0056b3;
+    --secondary-blue: #003366;
+    --light-gray: #f8f9fa;
+    --dark-gray: #343a40;
+}
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark-gray);
+    scroll-behavior: smooth;
+    padding-top: 76px;
+}
+
+/* Header Styles */
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 2rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+/* Core Values Section */
+.value-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+}
+
+/* About Section */
+.about-card {
+    padding: 2rem;
+    border-radius: 10px;
+    background: var(--light-gray);
+}
+
+/* Services Section */
+.service-card {
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    padding: 2rem;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Achievements */
+.achievement-timeline {
+    position: relative;
+    padding: 2rem 0;
+}
+
+.achievement-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+/* Contact Form */
+.contact-form {
+    background: var(--light-gray);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    background: var(--secondary-blue);
+    color: white;
+    padding: 3rem 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: var(--light-gray);
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background: white;
+        padding: 1rem;
+        border-radius: 10px;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+        padding: 4rem 0;
+    }
+    
+    .value-card, .about-card, .service-card {
+        margin-bottom: 1rem;
+    }
+
+    .achievement-timeline {
+        padding: 1rem;
+    }
+
+    .achievement-card {
+        margin: 1rem 0;
+    }
+}
