@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <rect width="400" height="300" fill="#f8f9fa"/>
+    <circle cx="200" cy="150" r="80" fill="#0056b3" opacity="0.1"/>
+    <path d="M160 150 L 240 150" stroke="#0056b3" stroke-width="4"/>
+    <path d="M200 110 L 200 190" stroke="#0056b3" stroke-width="4"/>
+    <circle cx="200" cy="150" r="20" stroke="#0056b3" stroke-width="4" fill="none"/>
+    <text x="200" y="150" font-family="Arial" font-size="14" fill="#343a40" text-anchor="middle">Radiographic Inspection</text>
+</svg>
