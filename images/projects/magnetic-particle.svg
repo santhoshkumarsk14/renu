@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-    <rect width="400" height="300" fill="#f8f9fa"/>
-    <circle cx="200" cy="150" r="80" fill="#0056b3" opacity="0.1"/>
-    <path d="M160 150 C 180 120, 220 180, 240 150" stroke="#0056b3" stroke-width="4" fill="none"/>
-    <circle cx="170" cy="150" r="5" fill="#0056b3"/>
-    <circle cx="230" cy="150" r="5" fill="#0056b3"/>
-    <text x="200" y="150" font-family="Arial" font-size="14" fill="#343a40" text-anchor="middle">Magnetic Particle Testing</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect x="0" y="0" width="200" height="200" fill="#003366" />
+  <circle cx="100" cy="100" r="60" fill="none" stroke="#fff" stroke-width="4" />
+  <circle cx="100" cy="100" r="40" fill="#0056b3" />
+  <circle cx="80" cy="100" r="8" fill="#fff" />
+  <circle cx="120" cy="100" r="8" fill="#fff" />
+  <text x="100" y="170" font-size="16" text-anchor="middle" fill="#fff">Magnetic Particle Testing</text>
 </svg>
